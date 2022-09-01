@@ -1,0 +1,14 @@
+---
+layout: default
+---
+ 
+<h1>{{ title }}</h1>
+<div>
+  Published on {{ date }}
+</div>
+ 
+<p><a href="{{ '/' | url }}">Back home</a></p>
+ 
+<article>
+  {{ content | safe }}
+</article>
